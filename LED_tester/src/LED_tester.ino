@@ -7,7 +7,7 @@
 
 #include "Neopixel.h"
 
-const int PIXCELOUNT = 35;
+const int PIXCELOUNT = 244;
 const int PIXELPIN = D5;
 
 
@@ -19,13 +19,13 @@ SYSTEM_MODE(SEMI_AUTOMATIC);
 
 void setup() {
     pixel.begin();
-    pixel.setBrightness(20);
+    pixel.setBrightness(100);
     pixel.show();
 
 }
 
 void loop() {
-    pixelFill(0,35,0xFF0000);
+  pixelFill(0,244,0xFF0000);
 
 }
 
@@ -35,4 +35,5 @@ void pixelFill(int startPixel, int endPixel, int color) {
     pixel.setPixelColor(i, color);
   }
   pixel.show();
+  delay(1000);
 }

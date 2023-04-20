@@ -1,3 +1,9 @@
+/******************************************************/
+//       THIS IS A GENERATED FILE - DO NOT EDIT       //
+/******************************************************/
+
+#include "Particle.h"
+#line 1 "/Users/owenschwab/Documents/IoT/capstone/obelesque/src/obelesque.ino"
 /*
  * Project obelesque
  * Description: Interactive sound + light installation
@@ -10,6 +16,9 @@
 #include <math.h>
 
 //SENSOR PINS
+void setup();
+void loop();
+#line 13 "/Users/owenschwab/Documents/IoT/capstone/obelesque/src/obelesque.ino"
 const int SENSOR1 = 12;
 const int SENSOR2 = 13;
 const int SENSOR3 = A5;
